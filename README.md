@@ -24,22 +24,28 @@ My test project.
 
 ## Usage
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/konashevich/script_storage_check.git
+   cd script_storage_check
+   ```
+
 ### Disk Space Checker
-1. Make the script executable (if not already):
+2. Make the script executable (if not already):
    ```bash
    chmod +x check_disk_space.sh
    ```
-2. Run the script:
+3. Run the script:
    ```bash
    ./check_disk_space.sh
    ```
 
 ### Folder Size Checker
-1. Make the script executable (if not already):
+2. Make the script executable (if not already):
    ```bash
    chmod +x check_folder_size.sh
    ```
-2. Run the script with a folder path:
+3. Run the script with a folder path:
    ```bash
    ./check_folder_size.sh /path/to/folder
    ```
