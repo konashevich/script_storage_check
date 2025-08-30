@@ -1,0 +1,27 @@
+# Ignore log files
+*.log
+
+# Ignore log directories
+logs/
+
+# Ignore system log files
+*.out
+*.err
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore the generated report files (optional, uncomment if you want to ignore reports)
+# disk_space_report_*.txt
+
+/old
+

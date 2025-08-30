@@ -1,0 +1,42 @@
+Disk Space Report - Generated on 2025-08-30 11:44:47
+==========================================
+
+Physical Discs Detected:
+sda            7.3T disk ST8000VN ST8000VN004-2M2101
+mmcblk2       57.6G disk          
+mmcblk2boot0     4M disk          
+mmcblk2boot1     4M disk          
+nvme1n1        1.8T disk          Samsung SSD 970 EVO Plus 2TB
+nvme2n1        3.7T disk          Lexar SSD NM790 4TB
+nvme0n1        1.8T disk          PNY CS1031 2TB SSD
+nvme3n1        3.7T disk          Lexar SSD NM790 4TB
+
+Filesystem Usage (including free space):
+Filesystem     Type           Size  Used Avail Use% Mounted on
+tmpfs          tmpfs          1.6G  6.6M  1.6G   1% /run
+overlay        overlay         53G   39G   12G  78% /
+tmpfs          tmpfs          7.8G   75M  7.8G   1% /dev/shm
+tmpfs          tmpfs          5.0M   24K  5.0M   1% /run/lock
+merged_ssd     fuse.mergerfs   11T  9.7T  1.2T  90% /mnt/merged_ssd
+/dev/nvme2n1p1 ext4           3.7T  3.4T  303G  92% /mnt/ssd3
+/dev/nvme0n1p1 ext4           1.8T  1.4T  351G  80% /mnt/ssd1
+/dev/nvme1n1p1 ext4           1.8T  1.6T  181G  91% /mnt/ssd2
+/dev/nvme3n1p1 ext4           3.7T  3.4T  302G  92% /mnt/ssd4
+tmpfs          tmpfs          1.6G  124K  1.6G   1% /run/user/1000
+/dev/sda2      ext4           7.3T  1.6T  5.3T  24% /media/pi/NASHDD1
+
+Free Space Summary:
+Filesystem | Available Space | Use%
+-----------|----------------|------
+tmpfs      | 1.6G           | 1%
+overlay    | 12G            | 78%
+tmpfs      | 7.8G           | 1%
+tmpfs      | 5.0M           | 1%
+merged_ssd | 1.2T           | 90%
+/dev/nvme2n1p1 | 303G           | 92%
+/dev/nvme0n1p1 | 351G           | 80%
+/dev/nvme1n1p1 | 181G           | 91%
+/dev/nvme3n1p1 | 302G           | 92%
+tmpfs      | 1.6G           | 1%
+/dev/sda2  | 5.3T           | 24%
+
